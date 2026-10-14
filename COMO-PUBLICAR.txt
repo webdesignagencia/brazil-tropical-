@@ -1,0 +1,57 @@
+BRAZIL TROPICAL PIZZARIA — COMO COLOCAR O SITE NO AR
+=====================================================
+
+Esta pasta já é o site pronto. Não precisa instalar nada.
+Conteúdo: index.html, pasta assets (código), pasta images (fotos) e vercel.json.
+
+PARA VER NO COMPUTADOR: descompacte o zip primeiro (botão direito > Extrair tudo)
+e depois dê dois cliques no index.html. Não abra o index.html de dentro do zip,
+porque assim ele não encontra as fotos e o código.
+O mapa do Google pode não aparecer quando o site é aberto pelo computador. Depois
+de publicado ele aparece normalmente.
+
+
+OPÇÃO 1 — MAIS FÁCIL (Netlify, grátis, 2 minutos)
+-------------------------------------------------
+1. Acesse https://app.netlify.com/drop e crie uma conta grátis (pode entrar com o Google).
+2. Arraste a PASTA site-pronto inteira para a área indicada na página.
+3. Pronto: o Netlify mostra o link do site (ex.: nome-aleatorio.netlify.app).
+4. Em "Site configuration > Change site name" você troca o nome,
+   por exemplo: braziltropical.netlify.app
+
+
+OPÇÃO 2 — VERCEL + GITHUB (grátis, atualiza sozinho)
+----------------------------------------------------
+1. Crie uma conta em https://github.com
+2. Clique em "New repository", dê o nome brazil-tropical e crie.
+3. Na página do repositório, clique em "uploading an existing file"
+   e arraste TUDO o que está DENTRO desta pasta (index.html, assets, images, vercel.json).
+   Clique em "Commit changes".
+4. Acesse https://vercel.com, entre com o GitHub e clique em "Add New > Project".
+5. Escolha o repositório brazil-tropical.
+   Em "Framework Preset" deixe "Other". Não precisa de Build Command.
+6. Clique em "Deploy". O site fica em brazil-tropical.vercel.app (ou parecido).
+
+
+DOMÍNIO PRÓPRIO (opcional)
+--------------------------
+Para usar um endereço como www.braziltropical.com.br:
+1. Registre o domínio em https://registro.br (cerca de R$ 40 por ano).
+2. No Netlify ou na Vercel, vá em "Domains", adicione o domínio
+   e siga as instruções para apontar o DNS.
+
+
+DEPOIS DE PUBLICAR, CONFIRA
+---------------------------
+- O mapa da seção "Localização" mostra o ponto certo da pizzaria.
+- Faça um pedido de teste até o fim e veja se a mensagem chega no WhatsApp.
+- Abra o site no celular.
+
+
+PARA MUDAR PREÇOS, PRODUTOS OU FOTOS
+------------------------------------
+Esta pasta é a versão final, gerada a partir do projeto completo
+(arquivo brazil-tropical-projeto.zip). As mudanças são feitas no projeto,
+e depois é gerada uma nova pasta site-pronto. Peça as alterações ao Claude
+e suba a pasta nova no mesmo lugar (no Netlify: aba "Deploys", arraste de novo;
+no GitHub: envie os arquivos novos por cima dos antigos).
